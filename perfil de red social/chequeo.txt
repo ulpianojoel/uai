@@ -1,0 +1,92 @@
+Document checking completed. No errors or warnings to show.
+
+Source
+<!DOCTYPE html>↩
+<html lang="en">↩
+<head>↩
+    <meta charset="UTF-8">↩
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">↩
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">↩
+    <link href="css/style.css" rel="stylesheet" type="text/css">↩
+    <title>Perfil red social</title>↩
+</head>↩
+<body>↩
+    ↩
+<h1>Bienvenidos a mi perfil social de Joel Ulpiano </h1>↩
+↩
+↩
+<img class="foto1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwter074dgeLJVJu2FUxnINbqo91PLQAIIv1HTVahqOA&s" alt="joelulpiano"  >↩
+↩
+<table>↩
+    <caption><h2> Datos personales</h2></caption>↩
+    ↩
+    <tr>↩
+        <th>Nombre y apellido:</th>↩
+        <td>Joel Ulpiano, Argentino</td>↩
+        <td>Profesion: Soporte tecnico</td>↩
+       ↩
+     </tr>↩
+    <tr>↩
+       <th>Formación académica:</th>↩
+       <td>Secundario completo</td>↩
+       <td>Estudiante universitario en uai</td>↩
+      ↩
+    </tr>↩
+    <tr>↩
+        <th>Experiencia profesional:</th>↩
+        <td>Soporte tecnico</td>↩
+        <td>programador inicial entre otros</td>↩
+     </tr>↩
+   ↩
+    ↩
+ </table>↩
+↩
+<H3>Gustos y preferencias:</H3>↩
+<table>↩
+    <colgroup>↩
+      <col class="column1">↩
+      <col class="columns2plus3" span="2">↩
+    </colgroup>↩
+    <tr>↩
+      <th>Informática:</th>↩
+      <td>paquete office, ADOBE pack</td>↩
+      <td></td>↩
+    </tr>↩
+    <tr>↩
+        <th>Detalles sobre mi:</th>↩
+        <td>Amo la fotografia, me gusta el marketing digital y armar tragos</td>↩
+        <td></td>↩
+      </tr>↩
+    ↩
+  </table>↩
+  <div>↩
+    <ul>↩
+       <li>Idiomas</li>↩
+       <li>ingles, basico</li>↩
+       <li>portugues, basico</li>↩
+   ↩
+       </ul>↩
+   </div>↩
+↩
+↩
+  <ol>↩
+    <li>Detalles sobre mi</li>↩
+    <li>hincha de river</li>↩
+    <li>me gusta ir al teatro</li>↩
+   </ol>↩
+↩
+<p>Perfil de pruebas creado el dia 17/04/2023</p>↩
+↩
+  ↩
+<nav>↩
+↩
+    <p>En caso de contratacion <a href="https://ar.linkedin.com/in/joel-ulpiano-583644b2">para mas informacion</a></p>↩
+  ↩
+  </nav>↩
+ ↩
+</body>↩
+</html>
+Used the HTML parser.
+
+Total execution time 8 milliseconds.
+
