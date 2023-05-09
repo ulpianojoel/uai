@@ -1,85 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>Perfil red social</title>
-</head>
-<body>
-    
-<h1>Bienvenidos a mi perfil social de Joel Ulpiano </h1>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Perfil Ulpiano Joel</title>
+  </head>
+  <body>
+    <!-- encabezado-->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand"> Perfil social Joel Ulpiano </h1>
+        </a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Perfil social</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwter074dgeLJVJu2FUxnINbqo91PLQAIIv1HTVahqOA&s" class="img-fluid" alt="Responsive image">
+        <p class="lead text-body-secondary">¡Hola! Mi nombre es Joel Ulpiano, estoy cursando la carrera de Analista de Sistemas en la UAI (Universidad Abierta Interamericana). En los últimos años de mi carrera me he enfocado en desarrollarme como un profesional analítico y resolutivo. Personalmente disfruto trabajar con personas y dar soporte por lo que tengo más de 3 años de experiencia dando soporte como administración en el ámbito corporativo.</p>
+        <p>
+         
+          <a href="https://www.linkedin.com/in/joel-ulpiano-583644b2/?originalSubdomain=ar" class="btn btn-primary my-2">Contacto linkedin</a>
+          <a href="https://www.linkedin.com/in/joel-ulpiano-583644b2/?originalSubdomain=ar" class="btn btn-secondary my-2">Contacto bumeran</a>
+        </p>
+      </div>
+    </div>
+  </section>
 
 
-<img class="foto1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwter074dgeLJVJu2FUxnINbqo91PLQAIIv1HTVahqOA&s" alt="joelulpiano"  >
 
-<table>
-    <caption><h2> Datos personales</h2></caption>
-    
-    <tr>
-        <th>Nombre y apellido:</th>
-        <td>Joel Ulpiano, Argentino</td>
-        <td>Profesion: Soporte tecnico</td>
+  <ol class="list-group list-group-numbered">
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Datos personales</div>
+        <tr>
+          <th>Nombre y apellido:</th>
+          <td>Joel Ulpiano, Argentino</td>
+          <td>Profesion: Soporte tecnico</td>
+         
+       </tr>
+      </div>
+      <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Formación académica:</div>
+        <td>Secundario completo</td>
+        <td>Estudiante universitario en uai</td>
        
-     </tr>
-    <tr>
-       <th>Formación académica:</th>
-       <td>Secundario completo</td>
-       <td>Estudiante universitario en uai</td>
-      
-    </tr>
-    <tr>
-        <th>Experiencia profesional:</th>
+      </div>
+      <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Experiencia profesional:</div>
         <td>Soporte tecnico</td>
         <td>programador inicial entre otros</td>
-     </tr>
-   
-    
- </table>
-
-<H3>Gustos y preferencias:</H3>
-<table>
-    <colgroup>
-      <col class="column1">
-      <col class="columns2plus3" span="2">
-    </colgroup>
+      </div>
+      <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+  </ol>
+<!-- detalles -->
+<table class="table">
+  <thead>
     <tr>
-      <th>Informática:</th>
-      <td>paquete office, ADOBE pack</td>
-      <td></td>
+      <th scope="col">#</th>
+      <th scope="col">Idiomas</th>
+      <th scope="col">hobbies</th>
+      <th scope="col">Gustos y preferencias:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Ingles</td>
+      <td>fubol</td>
+      <td>Leer</td>
     </tr>
     <tr>
-        <th>Detalles sobre mi:</th>
-        <td>Amo la fotografia, me gusta el marketing digital y armar tragos</td>
-        <td></td>
-      </tr>
-    
-  </table>
-  <div>
-    <ul>
-       <li>Idiomas</li>
-       <li>ingles, basico</li>
-       <li>portugues, basico</li>
-   
-       </ul>
-   </div>
+      <th scope="row">2</th>
+      <td>Frances</td>
+      <td>Natacion</td>
+      <td>Asado</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Aleman</td>
+      <td>Actuar</td>
+    </tr>
+  </tbody>
+</table>
+<!-- detalle -->
+<!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+</div>
+
+<!--footer -->
+<div class="col-md-5 offset-md-1 mb-3">
+  <form>
+    <h5>En caso de contratacion</h5>
+    <p> <a href="https://ar.linkedin.com/in/joel-ulpiano-583644b2">para mas informacion</a></p>
+    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+      <label for="newsletter1" class="visually-hidden">Email address</label>
+      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+      <button class="btn btn-primary" type="button">Subscribe</button>
+    </div>
+  </form>
+</div>
+</div>
+
+<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+<p>&copy; 2023 Company, Inc. All rights reserved.</p>
+<ul class="list-unstyled d-flex">
+  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+</ul>
+</div>
+</footer>
+</div>
 
 
-  <ol>
-    <li>Detalles sobre mi</li>
-    <li>hincha de river</li>
-    <li>me gusta ir al teatro</li>
-   </ol>
 
-<p>Perfil de pruebas creado el dia 17/04/2023</p>
 
-  
-<nav>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-    <p>En caso de contratacion <a href="https://ar.linkedin.com/in/joel-ulpiano-583644b2">para mas informacion</a></p>
-  
-  </nav>
- 
-</body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
