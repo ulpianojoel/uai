@@ -22,7 +22,7 @@
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/media/logo.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img src="/Clase 09 - formulario de registro/media/logo.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">¡Bienvenido/a a nuestra página de registro!</h1>
@@ -40,20 +40,19 @@
 
 
     <form class="row g-3" id="myForm">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <label for="validationDefault01" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="validationDefault01" value="Ingresa tu nombre" required>
+        <input type="text" class="form-control" id="validationDefault01" pattern="^[a-zA-Z]{2,}$" required>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <label for="validationDefault02" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="validationDefault02" value="Ingresa tu Apellido" required>
+        <input type="text" class="form-control" id="validationDefault02" pattern="^[a-zA-Z]{2,}$" required>
       </div>
-    
-      <div class="col-md-4">
+      <div class="col-md-6">
         <label for="validationDefaultUsername" class="form-label">Nombre de usuario</label>
         <div class="input-group">
           <span class="input-group-text" id="inputGroupPrepend2">@</span>
-          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+          <input type="text" class="form-control" id="validationDefaultUsername" pattern="^\S+$" required>
         </div>
       </div>
       <div class="col-md-6">
@@ -66,23 +65,47 @@
           <option value="Mendoza">Mendoza</option>
           <option value="La Plata">La Plata</option>
           <option value="Salta">Salta</option>
-          <!-- Agrego las ciudades -->
+          <!-- Agrega las ciudades -->
         </select>
       </div>
       <div class="col-md-3">
         <label for="validationDefault04" class="form-label">Distrito</label>
         <select class="form-select" id="validationDefault04" required>
           <option selected disabled value="">Elige tu distrito o barrio ...</option>
-          <option value="Estado 1">San isidro</option>
-          <option value="Estado 2">Vicente lopez</option>
+          <option value="Estado 1">San Isidro</option>
+          <option value="Estado 2">Vicente López</option>
           <option value="Estado 3">San Fernando</option>
           <option value="Estado 4">Tigre</option>
-          <!-- Agrego los barrios -->
+          <!-- Agrega los barrios -->
         </select>
       </div>
       <div class="col-md-3">
         <label for="validationDefault05" class="form-label">Código postal</label>
-        <input type="text" class="form-control" id="validationDefault05" required>
+        <input type="text" class="form-control" id="validationDefault05" pattern="^[a-zA-Z0-9]{3,}$" required>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-md-6">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+      </div>
+      <div class="col-md-3">
+        <label for="age" class="form-label">Edad</label>
+        <input type="number" class="form-control" id="age" min="18" required>
+      </div>
+      <div class="col-md-3">
+        <label for="phone" class="form-label">Teléfono</label>
+        <input type="tel" class="form-control" id="phone" pattern="^\d{7,}$" required>
+      </div>
+      <div class="col-md-6">
+        <label for="address" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="address" pattern="^[a-zA-Z0-9]+\s[a-zA-Z0-9\s]*[a-zA-Z0-9]$" required>
+      </div>
+      <div class="col-md-6">
+        <label for="dni" class="form-label">DNI</label>
+        <input type="text" class="form-control" id="dni" pattern="^\d{7,8}$" required>
       </div>
       <div class="col-12">
         <div class="form-check">
@@ -96,8 +119,6 @@
         <button class="btn btn-primary" type="submit">Enviar formulario</button>
       </div>
     </form>
-    
- 
     
     
 
