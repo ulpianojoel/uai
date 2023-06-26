@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 30px;
+  }
+  
+  input {
+    width: 100px;
+  }
+  
+  #result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
